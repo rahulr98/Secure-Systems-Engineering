@@ -34,5 +34,40 @@
 
   ![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/312a8e4c-9c3a-4b4b-b1a3-01191a570b7e)
 
-### D)  4.	Identify if unencrypted communication is happening between client and server.?
+### D)	Identify if unencrypted communication is happening between client and server.?
 
+  -  I got unencrypted  communication which contain the username and password of the client in application using wireshark at the transport layer.
+
+  ![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/c653d113-1517-4052-a6fc-5b20e18591ab)
+
+### E)  Capture and analyse the communication using proxy tools (eg: Burpsuite, Echo mirage). 
+
+  -  Captured client and server communication in proxy tool Echo mirage, which contains sensitive informations such as username, password and email-id.
+
+  ![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/21e9893a-0c34-4863-a83d-f82c9bf06bd4)
+
+### F) Analyse the application workflow and observe which all files/folders are being used by the application using Process Monitor.
+
+  -  By analysing the application workflow, we found that these files and folders were used.
+
+  ![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/c5401bcd-7ee8-4c76-bae5-23edbd997253)
+
+### G)  Exploit DLL Hijacking vulnerability (You can use a simple legitimate “Hello World” printing dll –
+
+  - We first opened DVTA application in process monitor and checked for the dll file which the application called but did not get it. So we took a calculator application dll and renamed it with the file name the application wanted.
+
+  ![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/c77c70a7-561c-4a4b-9db9-0eeb199610a3)
+
+  ![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/41655ed0-c610-4604-9c4b-cf9911be68ec)
+
+### H)  Check for sensitive information in the configuration files of the thick client application? 
+
+![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/72f0ba09-8441-4e11-867d-2821ee67a9dc)
+
+###  I)  Identify sensitive information found in memory? 
+
+![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/a62f7fd1-50f7-4f99-8b1a-e5b4eaf6a62c)
+
+![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/a84589db-06b1-40b4-b49f-367cb97376e9)
+
+![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/8be8f9eb-f847-4394-a224-1027e77dada5)
