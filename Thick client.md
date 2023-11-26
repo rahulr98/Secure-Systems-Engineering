@@ -54,7 +54,8 @@
 
 ### G)  Exploit DLL Hijacking vulnerability (You can use a simple legitimate “Hello World” printing dll –
 
-  - We first opened DVTA application in process monitor and checked for the dll file which the application called but did not get it. So we took a calculator application dll and renamed it with the file name the application wanted.
+  - We first opened DVTA application in process monitor
+  - Then checked for the dll file which the application called but did not get it. So we took a calculator application dll and renamed it with the file name the application wanted.
 
   ![image](https://github.com/rahulr98/Secure-Systems-Engineering/assets/116432525/c77c70a7-561c-4a4b-9db9-0eeb199610a3)
 
