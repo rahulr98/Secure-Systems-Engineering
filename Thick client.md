@@ -1,3 +1,6 @@
+**Name:** Rahul Raj
+**Roll No:** CB.EN.P2CYS22011
+
 ## THICK CLIENT
 
   -  A thick client, also known as a fat client or rich client, is a type of application architecture that involves a significant amount of processing on the client side. Unlike thin clients, which rely heavily on server-side processing, thick clients perform a substantial portion of the application logic and data processing on the user's device.
